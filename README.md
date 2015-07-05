@@ -4,7 +4,7 @@ It's a docker image for SquirrelMail
 
 ## Run
 
-docker run -p 22-p 80-d-v/tmp: / tmp squirrelmail:latest /usr/bin/supervisord
+docker run -p 22-p 80 -d -v /tmp:/tmp squirrelmail:latest /usr/bin/supervisord
 
 ## Set
 
