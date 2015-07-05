@@ -12,10 +12,7 @@ It's a docker image for SquirrelMail
 
 1. Use root/root to login
 2. config SquirrelMail with the following command in SSH
-```sh
-# /etc/squirrelmail/conf.pl
-```
+> # /etc/squirrelmail/conf.pl
 3. Config IMAP connection information
-
 >  `2. Server Settings ' ==&gt; ' A. Update IMAP Settings '
 
