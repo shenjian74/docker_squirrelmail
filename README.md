@@ -14,7 +14,7 @@ It's a docker image for SquirrelMail
 2. config SquirrelMail with the following command in SSH
 
   ```sh
-  \# /etc/squirrelmail/conf.pl
+  # /etc/squirrelmail/conf.pl
   ```
 3. Config IMAP connection information
 
