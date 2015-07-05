@@ -23,15 +23,15 @@ $provider_name     = 'SquirrelMail';
 
 $motd = "";
 
-$squirrelmail_default_language = 'ja_JP';
-$default_charset       = 'iso-2022-jp';
+$squirrelmail_default_language = 'en_US';
+$default_charset       = 'utf-8';
 $lossy_encoding        = false;
 
 $domain                 = trim(implode('', file('/etc/'.(file_exists('/etc/mailname')?'mail':'host').'name')));
-$imapServerAddress      = 'example.net';
-$imapPort               = 993;
+$imapServerAddress      = 'imap.139.com';
+$imapPort               = 143;
 $useSendmail            = false;
-$smtpServerAddress      = 'example.net';
+$smtpServerAddress      = 'smtp.139.com';
 $smtpPort               = 25;
 $sendmail_path          = '/usr/sbin/sendmail';
 $sendmail_args          = '-i -t';
