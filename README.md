@@ -17,6 +17,8 @@ Config SquirrelMail with the following command in SSH
 ```
 
 > IMAP connection information
+
 > Existence of IMAP TLS connections
+
 >  `2. Server Settings ' ==&gt; ' A. Update IMAP Settings '
 
