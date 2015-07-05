@@ -11,7 +11,7 @@ docker run -p 22-p 80 -d -v /tmp:/tmp squirrelmail:latest /usr/bin/supervisord
 and reset with the following command in SSH
 
 ```sh
-\# /etc/squirrelmail/conf.pl
+# /etc/squirrelmail/conf.pl
 ```
 
 -IMAP connection information
