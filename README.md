@@ -10,15 +10,14 @@ It's a docker image for SquirrelMail
 
 ## Set
 
-Use root/root to login, config SquirrelMail with the following command in SSH
+1. Use root/root to login
+
+2. config SquirrelMail with the following command in SSH
 
 ```sh
 # /etc/squirrelmail/conf.pl
 ```
 
-IMAP connection information
-
-Existence of IMAP TLS connections
-
-  `2. Server Settings ' ==&gt; ' A. Update IMAP Settings '
+3. Config IMAP connection information
+>  `2. Server Settings ' ==&gt; ' A. Update IMAP Settings '
 
