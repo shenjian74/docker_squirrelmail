@@ -206,7 +206,7 @@ $addrbook_global_writeable = false;
 $addrbook_global_listing = false;
 
 $no_list_for_subscribe = false;
-$smtp_auth_mech = 'none';
+$smtp_auth_mech = 'login';
 $imap_auth_mech = 'login';
 $smtp_sitewide_user = '';
 $smtp_sitewide_pass = '';
