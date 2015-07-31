@@ -28,7 +28,7 @@ $default_charset       = 'utf-8';
 $lossy_encoding        = false;
 
 $domain                 = trim(implode('', file('/etc/'.(file_exists('/etc/mailname')?'mail':'host').'name')));
-$imapServerAddress      = '173.194.202.109';
+$imapServerAddress      = '74.125.69.16';
 $imapPort               = 993;
 $useSendmail            = false;
 $smtpServerAddress      = '173.194.203.108';
