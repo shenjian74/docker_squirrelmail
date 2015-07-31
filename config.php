@@ -28,10 +28,10 @@ $default_charset       = 'utf-8';
 $lossy_encoding        = false;
 
 $domain                 = trim(implode('', file('/etc/'.(file_exists('/etc/mailname')?'mail':'host').'name')));
-$imapServerAddress      = 'imap.gmail.com';
+$imapServerAddress      = '173.194.202.109';
 $imapPort               = 993;
 $useSendmail            = false;
-$smtpServerAddress      = 'smtp.gmail.com';
+$smtpServerAddress      = '173.194.203.108';
 $smtpPort               = 465;
 $sendmail_path          = '/usr/sbin/sendmail';
 $sendmail_args          = '-i -t';
