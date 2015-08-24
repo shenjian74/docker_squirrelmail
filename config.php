@@ -43,9 +43,9 @@ $optional_delimiter     = 'detect';
 $encode_header_key      = '';
 
 $default_folder_prefix          = '';
-$trash_folder                   = 'INBOX.Trash';
-$sent_folder                    = 'INBOX.Sent';
-$draft_folder                   = 'INBOX.Drafts';
+$trash_folde = '[Gmail]/Trash';
+$sent_folder = '[Gmail]/Sent Mail';
+$draft_folder = '[Gmail]/Drafts'; 
 $default_move_to_trash          = true;
 $default_move_to_sent           = true;
 $default_save_as_draft          = true;
