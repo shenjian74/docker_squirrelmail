@@ -1,14 +1,13 @@
 FROM debian:wheezy
 MAINTAINER yaasita
 
-#apt
-#ADD 02proxy /etc/apt/apt.conf.d/02proxy
+# apt
+# ADD 02proxy /etc/apt/apt.conf.d/02proxy
 RUN apt-get update
 RUN apt-get upgrade -y
 
 #package
-RUN apt-get install -y vim \
- aptitude squirrelmail-locales squirrelmail apache2 htop w3m
+RUN apt-get install -y vim aptitude squirrelmail-locales squirrelmail apache2 htop w3m
 
 #ssh
 RUN apt-get install -y openssh-server
